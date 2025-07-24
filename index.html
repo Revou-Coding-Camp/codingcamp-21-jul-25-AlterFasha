@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Project Todo List</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="todo-container">
+    <h1>Todo List</h1>
+
+    <form class="form" id="taskForm">
+      <input type="text" id="taskInput" placeholder="task" required />
+      <input type="date" id="dateInput" required />
+      <button type="submit">Add +</button>
+    </form>
+
+    <div class="options">
+      <select id="statusFilter">
+        <option value="all">All</option>
+        <option value="done">Done</option>
+        <option value="pending">Pending</option>
+      </select>
+      <button id="clearAllBtn">Delete All</button>
+    </div>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Due</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="taskList">
+        <tr><td colspan="4">No Task</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

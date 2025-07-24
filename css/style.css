@@ -1,0 +1,75 @@
+body {
+  background: #3f3d3d;
+  color: #ffffff;
+  font-family: Arial;
+  display: flex;
+  justify-content: Center;
+  padding: 50px;
+}
+
+.todo-container {
+  background: #000000;
+  padding: 30px;
+  border-radius: 12px;
+  width: 120%;
+  max-width: 600px;
+  box-shadow: 0 0 10px #ffffff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.form {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.form input,
+.form button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.form button {
+  background-color: #ffffff;
+  color: rgb(2, 250, 105);
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.options select,
+.options button {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1a1a1a;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+
+button.action-btn {
+  padding: 5px 8px;
+  margin: 0 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
